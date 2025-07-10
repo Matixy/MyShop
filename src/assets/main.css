@@ -1,0 +1,40 @@
+#app {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.cursor-pointer {
+  cursor: pointer
+}
+
+.product-card {
+  overflow: hidden;
+}
+
+.fav-icon{
+  background-color: white;
+  transition: all 0.15s ease-in;
+}
+
+.product-card:hover .fav-icon{
+  transform: translateX(-100%);
+}
+
+.fav-icon:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+.favourite-added {
+  color: red;
+}
+
+.noselect 
+{
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+    user-select: none;
+}
